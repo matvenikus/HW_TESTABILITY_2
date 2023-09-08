@@ -1,7 +1,7 @@
 public class BmiService {
-    public int calculate (int a, int b) {
-        int c = b * b;
-        int result = a * 10000 / c;
+    public int calculate (int weight, int height) {
+        int sum = height * height;
+        int result = weight * 10000 / sum;
         return result;
     }
 }
